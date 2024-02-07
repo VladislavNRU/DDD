@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- /meta -->
+    
+    <!-- links -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./scss/style.scss">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- /links -->
+
+    <!-- title -->
+    <title>Nk</title>
+    <!-- /title -->
+</head>
+<body>
+<!--header-->
+<header class="header" id="header">
+    <div class="preloader">
+        <img src="./img/logo-n.png" alt="Nk">
+    </div>
+    <div class="header-image index-image">
+        <img src="img/fs.jpg" alt="photo">
+    </div>
+    
+
+    <div class="header-mobile">
+        <nav class="header-mobile-wrapper">
+            <div class="header-mobile-linkwrap">
+                <a href="./index.html" class="header-nav_links__link">Главная</a>
+                <a href="./pages/about.html"     class="header-nav_links__link">Обо мне</a>
+                <a href="./pages/contact.html" class="header-nav_links__link">Контакты</a>
+                <a href="./pages/reviews.html"       class="header-nav_links__link">Кейсы и отзывы</a>
+            </div>
+            <div class="header-mobile-linkwrap">
+                <a href="#" class="header-nav_links__link header-nav_links__link--dark">Договор</a>
+                <a href="#" class="header-nav_links__link header-nav_links__link--dark">Сопровождение</a>
+                <a href="#" class="header-nav_links__link header-nav_links__link--dark">Консультация</a>
+            </div>
+            <div class="header-mobile-linkwrap flex-end">
+                <a href="#" class="header-mobile__contacts">@dogovornick</a>
+                <a href="#" class="header-mobile__contacts">nick@dogovornick.ru</a>
+                <div class="header-mobile-socials">
+                    <a href="https://t.me/@dogovornick" class="header-mobile-social"><img src="./img/tg-white.svg" alt="Телеграмм"></a>
+                    <a href="" class="header-mobile-social"><img src="./img/vk-white.svg" alt="ВК"></a>
+                    <a href="" class="header-mobile-social"><img src="./img/youtube-white.svg" alt="Ютьюб"></a>
+                </div>
+            </div>
+            <div class="header-mobile-linkwrap">
+                <span class="header-mobile__credits">г. Москва 2022 <br> © Все права защищены</span>
+            </div>
+        </nav>
+    </div>
+    <div class="container header-container">
+        <div class="header-nav">
+            <img class="mobile-logo" src="./img/logo-n.png" alt="NK">
+            <a href="./index.html" class="header-nav_logo">
+                <img src="./img/N.png" alt="N">
+                <img class="logo-k" src="./img/k.png" alt="k">
+                <img class="logo-k-1" src="./img/k-1.png" alt="k">
+            </a>
+            <div class="header-nav_links">
+                <a href="./pages/about.html"        class="header-nav_links__link">Обо мне</a>
+                <a href="#services"     class="header-nav_links__link">Услуги</a>
+                <a href="./pages/contact.html" class="header-nav_links__link">Контакты</a>
+                <a href="./pages/reviews.html"       class="header-nav_links__link">Кейсы и отзывы</a>
+            </div>
+            <button class="header-mobile_item">
+                <span class="header-mobile_item--span"></span>
+                <span class="header-mobile_item--span"></span>
+                <span class="header-mobile_item--span"></span>
+            </button>
+        </div>
+
+        <div class="header-bt">
+            <span class="header-br_txt">Лучший юрист digital сферы <br> по мнению клиентов <br> <a href="./pages/reviews.html">смотри отзывы</a></span>
+            <span class="header-br_txt">Сижу в Москве <br> Работаю по всей стране</span>
+        </div>
+
+        <div class="header-title">
+            <h1 class="header-title_txt">
+                Ник Фомин <br> юрист продюсеров, маркетологов и экспертов
+            </h1>
+        </div>
+
+        <div class="header-advantages">
+            <div class="header-advantages_social">
+                <a href="https://t.me/@dogovornick" target="_blank">@dogovornick</a>
+                <a href="mailto:nick@dogovornick.ru" target="_blank">nick@dogovornick.ru</a>
+            </div>
+            <div class="header-advantages-with">
+                <h3 class="header-advantages-with_title">Со мной</h3>
+                <div class="header-advantages-with_cards">
+                    <div class="header-advantages-with_cards__card index-card">
+                        <span class="header-advantages-with_cards__card-num ">01</span>
+                        <span class="header-advantages-with_cards__card-title">В 60 раз <span>меньше</span> налогов</span>
+                        <span class="header-advantages-with_cards__card-sm index-card-txt">ты платишь с наставничества и курсов</span>
+                    </div>
+                    <div class="header-advantages-with_cards__card index-card">
+                        <span class="header-advantages-with_cards__card-num">02</span>
+                        <span class="header-advantages-with_cards__card-title">в 2 раза <span>больше</span> доверия</span>
+                        <span class="header-advantages-with_cards__card-sm index-card-txt">к тебе от клиентов за счёт авторитетных документов</span>
+                    </div>
+                    <div class="header-advantages-with_cards__card header-advantages-with_cards__card-third index-card">
+                        <span class="header-advantages-with_cards__card-num">03</span>
+                        <span class="header-advantages-with_cards__card-title ">надёжно Защищён</span>
+                        <span class="header-advantages-with_cards__card-sm index-card-txt">от неадекватов, возвратов и душнил</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--/header-->
+
+<!--about-->
+<section class="section-about" id="about">
+    <div class="container">
+        <div class="about">
+            <h5 class="about_title">обо мне</h5>
+            <div class="about-short">
+                <div class="about-short-wrapper">
+                    <div class="about-short-wrapper_img">
+                        <img class="about-short-wrapper_img-item" src="img/about.jpg" alt="about me">
+                    </div>
+                    <h2 class="about-short-wrapper_title">коротко <br> обо мне</h2>
+                </div>
+                <span class="about-short_main"><span>Первый и единственный юрист в РФ</span>
+                разработавший универсальный договор для любых digital услуг — от таргета до комплексного маркетинга</span>
+                <div class="about-short-columns">
+                    <div class="about-short-columns_column">
+                        <span class="about-short-columns_column__num">01</span>
+                        <span class="about-short-columns_column__txt">
+                            <span>6+ лет практического <br> опыта</span>
+                            в сопровождении <br> предпринимателей, <br> компаний и сделок
+                        </span>
+                    </div>
+                    <div class="about-short-columns_column">
+                        <span class="about-short-columns_column__num">02</span>
+                        <span class="about-short-columns_column__txt">
+                            <span>Создал более <br> 5 000 договоров и соглашений.<br></span>
+                            Моими документами закрывают сделки на <br> несколько десятков миллионов Евро
+                        </span>
+                    </div>
+                    <div class="about-short-columns_column">
+                        <span class="about-short-columns_column__num">03</span>
+                        <span class="about-short-columns_column__txt">
+                            Маркетолог, выросший c нуля<br> до своего агентства за год. <br>
+                            <span> Я знаю, как работает твой бизнес, </span>
+                            <br> и какие документы сделают его еще круче 
+                        </span>
+                    </div>
+                </div>
+                <a href="./pages/reviews.html" class="about-short_href">Читать подробнее</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/about-->
+<!--free-->
+<section class="section-free">
+    <div class="container free-container">
+        <div class="free">
+            <h5 class="about_title free-title">Бесплатные советы</h5>
+            <img class="free_phone" src="./img/телефон.png" alt="телефон">
+            <div class="free-wrapper">
+                <div class="free-main">
+                    <span class="free-main_title"> <span>Здесь я даю полезную</span> информацию  для  маркетологов,<br> и для онлайн-предпренимателей</span>
+                    <span class="free-main_txt">а так же шаблоны договоров, факапы <br> предпринимателей и доступ ко всем услугам</span>
+                    <form action="https://t.me/@dogovornick" target="_blank">
+                        <button class="free-main_btn">Подписаться на канал 
+                            <!-- <img src="./img/иконки.png" alt=""> -->
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_949_1048)">
+                                    <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0" stop-color="#FE7BFE"/>
+                                        <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                        <stop offset="100%" stop-color="#8D3BE4"/>
+                                       
+                                      </linearGradient>
+                                    <clipPath id="clip0_949_1048">
+                                        <rect width="20" height="20" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                    </form>
+                    
+                </div>
+                <div class="free-main free-main-second">
+                    <span class="free-main_title free-main_title-second"> Срочный вопрос, <br> не даюший покоя?</span>
+                    <span class="free-main_txt">Запишись на бесплатную консультацию через чат-бота, <br>
+                        и я дам тебе всю необходимую информацию, <br>
+                        чтобы ты смог решить свой вопрос</span>
+                        <form action="https://t.me/@dogovornick_bot" target="_blank">
+                            <button class="free-main_btn">бот консультации
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_949_1048)">
+                                        <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                    </g>
+                                    <defs>
+                                        <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                            <stop offset="0" stop-color="#FE7BFE"/>
+                                            <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                            <stop offset="100%" stop-color="#8D3BE4"/>
+                                           
+                                          </linearGradient>
+                                        <clipPath id="clip0_949_1048">
+                                            <rect width="20" height="20" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </form>
+                </div>
+            </div>
+        </div>
+        <div class="free_lower">
+            <img src="./img/lower.jpg" alt="photo">
+        </div>
+    </div>
+</section>
+<!--/free-->
+
+<!--services-->
+<section class="section-services section-color" id="services">
+    <div class="container free-container">
+        <div class="services">
+            <h5 class="about_title services-title">мои Услуги</h5>
+            <div class="services-items">
+                <div class="services-items_item">
+                    <div class="services-items_item__num">01</div>
+                    <div class="services-items_item-wrapper">
+                        <div class="services-items_item__title">Разработка индивидуальных документов <br> под твой стиль работы и философию</div>
+                        <div class="services-items_item__txt">Подойдет, если у тебя есть проект, и ты хочешь защитить его юридически. <br> Без шаблонов из интернета, которые ты и сам мог найти.</div>
+                        <div class="services-items_item__price">35 000 ₽* <a href="./pages/reviews.html">Подробнее</a></div>
+                        
+                    </div>
+                </div>
+
+                <div class="services-items_item">
+                    <div class="services-items_item__num">02</div>
+                    <div class="services-items_item-wrapper">
+                        <div class="services-items_item__title">Сопровождение твоего бизнеса <br> и решение всех юридических вопросов</div>
+                        <div class="services-items_item__txt">Для тех, кто хочет делегировать ведение документов (договоров и актов), <br> а так же юридические вопросы эксперту.</div>
+                        <div class="services-items_item__price">25 000 ₽* <a href="./pages/reviews.html">Подробнее</a></div>
+                        
+                    </div>
+                </div>
+
+                <div class="services-items_item">
+                    <div class="services-items_item__num">03</div>
+                    <div class="services-items_item-wrapper">
+                        <div class="services-items_item__title">Консультация и аудит юридической <br> безопасности твоего проекта, <br> документов и бизнеса</div>
+                        <div class="services-items_item__txt">Если тебе нужно избавиться от насущного вопроса по юридической <br>безопасности и получить четкий план, как тебе действовать.</div>
+                        <div class="services-items_item__price">10 000 ₽* <a href="./pages/reviews.html">Подробнее</a></div>
+                        
+                    </div>
+                </div>
+                <div class="free-main">
+                    <span class="free-main_title free-main_title-second services_q">Не знаешь что <br> тебе подойдет?</span>
+                    <span class="free-main_txt">Приходи на консультацию, и я <br> подскажу оптимальное решение</span>
+                    <form action="https://t.me/@dogovornick_bot" target="_blank">
+                        <button class="free-main_btn">бот консультации
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_949_1048)">
+                                    <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0" stop-color="#FE7BFE"/>
+                                        <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                        <stop offset="100%" stop-color="#8D3BE4"/>
+                                       
+                                      </linearGradient>
+                                    <clipPath id="clip0_949_1048">
+                                        <rect width="20" height="20" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="services-photo">
+                <img src="img/services.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!--/services-->
+
+<!--reviews-->
+<section class="section-reviews" id="reviews">
+    <div class="container m-padding-10">
+        <div class="reviews">
+            <h5 class="about_title reviews-title">Кейсы и отзывы</h5>
+            <div class="reviews-items">
+                <div class="reviews-items__title">Несколько отзывов моих клиентов, <br> с которыми работаем в долгую</div>
+                <div class="reviews-items_item reviews-page-item">
+                    <button class="reviews-text">
+                        <div class="reviews-click">
+                            <div class="reviews-items_item__title">ИП Угаров Юрий Сергеевич</div>
+                            <div class="reviews-items_item__txt">Разработка документов и юридическое сопровождение</div>
+                        </div>
+                    </button>
+                    <div class="reviews-in ">
+                        <div class="reviews-in-wrapper">
+                            <div class="reviews-in-left">
+                                <div class="reviews-in-left_txt">
+                                    <div class="reviews-in-left-text">
+                                        <div class="reviews-in-left_span">Субаренда императивна. Причиненный ущерб арендует <br> аккредитив, исключая принцип презумпции невиновности. В <br> соответствии с общим принципом, установленным <br> Конституцией РФ, фрахтование подведомственно <br> арбитражному суду. Обязательство формирует <br> законодательный обычай делового оборота. <br> Рефинансирование, делая скидку на латентность данных <br> правоотношений, умышленно. <br></div>
+                                        <div class="reviews-in-left_span-s">Доверенность вознаграждает страховой полис. <br> Правоспособность вероятна. Взаимозачет, вследствие <br> публичности данных отношений, недействителен согласно <br> закону.</div>
+                                    </div>
+                                    <a class="reviews-href" href="./img/15 СЕКУНД. Рекламный ролик.mp4" data-fancybox data-width="640"
+                                       data-height="720">
+                                       <div class="reviews-href-overlay">
+                                            <img src="./img/play-txt.svg" alt="play">
+                                            <div class="time-wrapper">
+                                                <div class="time-nums">
+                                                    <span class="time_item">0:02</span>
+                                                    <span class="time_item">1:04</span>
+                                                </div>
+                                                <div class="line">
+                                                    <div class="line-white"></div>
+                                                </div>
+                                            </div>
+                                            
+                                       </div>
+                                       <img class="reviews-href-img" src="./img/play.svg" alt="">
+                                       <div class="reviews-href-preview">
+                                            <img src="./img/one-review.jpg" alt="">
+                                       </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="reviews-in-left_bottom">
+                                    <div class="reviews-in-img">
+                                        <img src="../img/ugarov.png" alt="">
+                                    </div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reviews-in-bottom">
+                            <div class="reviews-in-bottom__span">Запишись на бесплатную консультацию через чат-бота,
+                                <br>и я дам тебе всю необходимую информацию,
+                                <br>чтобы ты смог решить свой вопрос</div>
+                            <form action="https://t.me/@dogovornick_bot" target="_blank">
+                                <button class="free-main_btn">бот консультации
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_949_1048)">
+                                            <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                        </g>
+                                        <defs>
+                                            <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                                <stop offset="0" stop-color="#FE7BFE"/>
+                                                <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                                <stop offset="100%" stop-color="#8D3BE4"/>
+                                            
+                                              </linearGradient>
+                                            <clipPath id="clip0_949_1048">
+                                                <rect width="20" height="20" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="plus-items reviews-plus">
+                        <div class="plus-items__item"></div>
+                        <div class="plus-items__item"></div>
+                    </div>
+                    
+                </div>
+                <div class="reviews-items_item reviews-page-item">
+                    <button class="reviews-text">
+                        <div class="reviews-click">
+                            <div class="reviews-items_item__title">Алекс Голд «Револьвер»</div>
+                            <div class="reviews-items_item__txt">Разработка документов и юридическое сопровождение</div>
+                        </div>
+                    </button>
+                    <div class="reviews-in ">
+                        <div class="reviews-in-wrapper">
+                            <div class="reviews-in-left">
+                                <div class="reviews-in-left_txt">
+                                    <div class="reviews-in-left-text">
+                                        <div class="reviews-in-left_span">Субаренда императивна. Причиненный ущерб арендует <br> аккредитив, исключая принцип презумпции невиновности. В <br> соответствии с общим принципом, установленным <br> Конституцией РФ, фрахтование подведомственно <br> арбитражному суду. Обязательство формирует <br> законодательный обычай делового оборота. <br> Рефинансирование, делая скидку на латентность данных <br> правоотношений, умышленно. <br></div>
+                                        <div class="reviews-in-left_span-s">Доверенность вознаграждает страховой полис. <br> Правоспособность вероятна. Взаимозачет, вследствие <br> публичности данных отношений, недействителен согласно <br> закону.</div>
+                                    </div>
+                                    <a class="reviews-href" href="./img/15 СЕКУНД. Рекламный ролик.mp4" data-fancybox data-width="640"
+                                       data-height="720">
+                                       <div class="reviews-href-overlay">
+                                            <img src="./img/play-txt.svg" alt="play">
+                                            <div class="time-wrapper">
+                                                <div class="time-nums">
+                                                    <span class="time_item">0:02</span>
+                                                    <span class="time_item">1:04</span>
+                                                </div>
+                                                <div class="line">
+                                                    <div class="line-white"></div>
+                                                </div>
+                                            </div>
+                                            
+                                       </div>
+                                       <img class="reviews-href-img" src="./img/play.svg" alt="">
+                                       <div class="reviews-href-preview">
+                                            <img src="./img/one-review.jpg" alt="">
+                                       </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="reviews-in-left_bottom">
+                                    <div class="reviews-in-img">
+                                        <img src="../img/ugarov.png" alt="">
+                                    </div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reviews-in-bottom">
+                            <div class="reviews-in-bottom__span">Запишись на бесплатную консультацию через чат-бота,
+                                <br>и я дам тебе всю необходимую информацию,
+                                <br>чтобы ты смог решить свой вопрос</div>
+                                <form action="https://t.me/@dogovornick_bot" target="_blank">
+                                    <button class="free-main_btn">бот консультации
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_949_1048)">
+                                                <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                                    <stop offset="0" stop-color="#FE7BFE"/>
+                                                    <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                                    <stop offset="100%" stop-color="#8D3BE4"/>
+                                                   
+                                                  </linearGradient>
+                                                <clipPath id="clip0_949_1048">
+                                                    <rect width="20" height="20" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </form>
+                        </div>
+                    </div>
+
+                    <div class="plus-items reviews-plus">
+                        <div class="plus-items__item"></div>
+                        <div class="plus-items__item"></div>
+                    </div>
+                    
+                </div>
+                <div class="reviews-items_item reviews-page-item">
+                    <button class="reviews-text">
+                        <div class="reviews-click">
+                            <div class="reviews-items_item__title">ИП Рожкани Самуэль Юрьевич</div>
+                            <div class="reviews-items_item__txt">Разработка документов и юридическое сопровождение</div>
+                        </div>
+                    </button>
+                    <div class="reviews-in ">
+                        <div class="reviews-in-wrapper">
+                            <div class="reviews-in-left">
+                                <div class="reviews-in-left_txt">
+                                    <div class="reviews-in-left-text">
+                                        <div class="reviews-in-left_span">Субаренда императивна. Причиненный ущерб арендует <br> аккредитив, исключая принцип презумпции невиновности. В <br> соответствии с общим принципом, установленным <br> Конституцией РФ, фрахтование подведомственно <br> арбитражному суду. Обязательство формирует <br> законодательный обычай делового оборота. <br> Рефинансирование, делая скидку на латентность данных <br> правоотношений, умышленно. <br></div>
+                                        <div class="reviews-in-left_span-s">Доверенность вознаграждает страховой полис. <br> Правоспособность вероятна. Взаимозачет, вследствие <br> публичности данных отношений, недействителен согласно <br> закону.</div>
+                                    </div>
+                                    <a class="reviews-href" href="./img/15 СЕКУНД. Рекламный ролик.mp4" data-fancybox data-width="640"
+                                       data-height="720">
+                                       <div class="reviews-href-overlay">
+                                            <img src="./img/play-txt.svg" alt="play">
+                                            <div class="time-wrapper">
+                                                <div class="time-nums">
+                                                    <span class="time_item">0:02</span>
+                                                    <span class="time_item">1:04</span>
+                                                </div>
+                                                <div class="line">
+                                                    <div class="line-white"></div>
+                                                </div>
+                                            </div>
+                                            
+                                       </div>
+                                       <img class="reviews-href-img" src="./img/play.svg" alt="">
+                                       <div class="reviews-href-preview">
+                                            <img src="./img/one-review.jpg" alt="">
+                                       </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="reviews-in-left_bottom">
+                                    <div class="reviews-in-img">
+                                        <img src="../img/ugarov.png" alt="">
+                                    </div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reviews-in-bottom">
+                            <div class="reviews-in-bottom__span">Запишись на бесплатную консультацию через чат-бота,
+                                <br>и я дам тебе всю необходимую информацию,
+                                <br>чтобы ты смог решить свой вопрос</div>
+                                <form action="https://t.me/@dogovornick_bot" target="_blank">
+                                    <button class="free-main_btn">бот консультации
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_949_1048)">
+                                                <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                                    <stop offset="0" stop-color="#FE7BFE"/>
+                                                    <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                                    <stop offset="100%" stop-color="#8D3BE4"/>
+                                                   
+                                                  </linearGradient>
+                                                <clipPath id="clip0_949_1048">
+                                                    <rect width="20" height="20" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </form>
+                        </div>
+                    </div>
+
+                    <div class="plus-items reviews-plus">
+                        <div class="plus-items__item"></div>
+                        <div class="plus-items__item"></div>
+                    </div>
+                    
+                </div>
+                <div class="reviews-items_item reviews-page-item">
+                    <button class="reviews-text">
+                        <div class="reviews-click">
+                            <div class="reviews-items_item__title">Switips LLC</div>
+                            <div class="reviews-items_item__txt">Оферты и политики</div>
+                        </div>
+                    </button>
+                    <div class="reviews-in ">
+                        <div class="reviews-in-wrapper">
+                            <div class="reviews-in-left">
+                                <div class="reviews-in-left_txt">
+                                    <div class="reviews-in-left-text">
+                                        <div class="reviews-in-left_span">Субаренда императивна. Причиненный ущерб арендует <br> аккредитив, исключая принцип презумпции невиновности. В <br> соответствии с общим принципом, установленным <br> Конституцией РФ, фрахтование подведомственно <br> арбитражному суду. Обязательство формирует <br> законодательный обычай делового оборота. <br> Рефинансирование, делая скидку на латентность данных <br> правоотношений, умышленно. <br></div>
+                                        <div class="reviews-in-left_span-s">Доверенность вознаграждает страховой полис. <br> Правоспособность вероятна. Взаимозачет, вследствие <br> публичности данных отношений, недействителен согласно <br> закону.</div>
+                                    </div>
+                                    <a class="reviews-href" href="./img/15 СЕКУНД. Рекламный ролик.mp4" data-fancybox data-width="640"
+                                       data-height="720">
+                                       <div class="reviews-href-overlay">
+                                            <img src="./img/play-txt.svg" alt="play">
+                                            <div class="time-wrapper">
+                                                <div class="time-nums">
+                                                    <span class="time_item">0:02</span>
+                                                    <span class="time_item">1:04</span>
+                                                </div>
+                                                <div class="line">
+                                                    <div class="line-white"></div>
+                                                </div>
+                                            </div>
+                                            
+                                       </div>
+                                       <img class="reviews-href-img" src="./img/play.svg" alt="">
+                                       <div class="reviews-href-preview">
+                                            <img src="./img/one-review.jpg" alt="">
+                                       </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="reviews-in-left_bottom">
+                                    <div class="reviews-in-img">
+                                        <img src="../img/ugarov.png" alt="">
+                                    </div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reviews-in-bottom">
+                            <div class="reviews-in-bottom__span">Запишись на бесплатную консультацию через чат-бота,
+                                <br>и я дам тебе всю необходимую информацию,
+                                <br>чтобы ты смог решить свой вопрос</div>
+                                <form action="https://t.me/@dogovornick_bot" target="_blank">
+                                    <button class="free-main_btn">бот консультации
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_949_1048)">
+                                                <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                                    <stop offset="0" stop-color="#FE7BFE"/>
+                                                    <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                                    <stop offset="100%" stop-color="#8D3BE4"/>
+                                                   
+                                                  </linearGradient>
+                                                <clipPath id="clip0_949_1048">
+                                                    <rect width="20" height="20" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </form>
+                        </div>
+                    </div>
+
+                    <div class="plus-items reviews-plus">
+                        <div class="plus-items__item"></div>
+                        <div class="plus-items__item"></div>
+                    </div>
+                    
+                </div>
+                <div class="reviews-items_item reviews-page-item">
+                    <button class="reviews-text">
+                        <div class="reviews-click">
+                            <div class="reviews-items_item__title">FIMOLVIA HOLDINGS LTD</div>
+                            <div class="reviews-items_item__txt">Договор на фильм на Кубе</div>
+                        </div>
+                    </button>
+                    <div class="reviews-in ">
+                        <div class="reviews-in-wrapper">
+                            <div class="reviews-in-left">
+                                <div class="reviews-in-left_txt">
+                                    <div class="reviews-in-left-text">
+                                        <div class="reviews-in-left_span">Субаренда императивна. Причиненный ущерб арендует <br> аккредитив, исключая принцип презумпции невиновности. В <br> соответствии с общим принципом, установленным <br> Конституцией РФ, фрахтование подведомственно <br> арбитражному суду. Обязательство формирует <br> законодательный обычай делового оборота. <br> Рефинансирование, делая скидку на латентность данных <br> правоотношений, умышленно. <br></div>
+                                        <div class="reviews-in-left_span-s">Доверенность вознаграждает страховой полис. <br> Правоспособность вероятна. Взаимозачет, вследствие <br> публичности данных отношений, недействителен согласно <br> закону.</div>
+                                    </div>
+                                    <a class="reviews-href" href="./img/15 СЕКУНД. Рекламный ролик.mp4" data-fancybox data-width="640"
+                                       data-height="720">
+                                       <div class="reviews-href-overlay">
+                                            <img src="./img/play-txt.svg" alt="play">
+                                            <div class="time-wrapper">
+                                                <div class="time-nums">
+                                                    <span class="time_item">0:02</span>
+                                                    <span class="time_item">1:04</span>
+                                                </div>
+                                                <div class="line">
+                                                    <div class="line-white"></div>
+                                                </div>
+                                            </div>
+                                            
+                                       </div>
+                                       <img class="reviews-href-img" src="./img/play.svg" alt="">
+                                       <div class="reviews-href-preview">
+                                            <img src="./img/one-review.jpg" alt="">
+                                       </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="reviews-in-left_bottom">
+                                    <div class="reviews-in-img">
+                                        <img src="../img/ugarov.png" alt="">
+                                    </div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+                                    <div class="reviews-in-left__span">Из комментариев экспертов, <br> анализирующих законопроект, не <br>всегда можно определить, когда<br> именно штраф катастрофично<br> лицензирует преддоговорный <br>взаимозачет. Как и уступка<br> требования, товарный кредит<br> опротестован. По общему<br> правилу аккредитив арендует <br>гарант.</div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="reviews-in-bottom">
+                            <div class="reviews-in-bottom__span">Запишись на бесплатную консультацию через чат-бота,
+                                <br>и я дам тебе всю необходимую информацию,
+                                <br>чтобы ты смог решить свой вопрос</div>
+                                <form action="https://t.me/@dogovornick_bot" target="_blank">
+                                    <button class="free-main_btn">бот консультации
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_949_1048)">
+                                                <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                                    <stop offset="0" stop-color="#FE7BFE"/>
+                                                    <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                                    <stop offset="100%" stop-color="#8D3BE4"/>
+                                                   
+                                                  </linearGradient>
+                                                <clipPath id="clip0_949_1048">
+                                                    <rect width="20" height="20" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </form>
+                        </div>
+                    </div>
+
+                    <div class="plus-items reviews-plus">
+                        <div class="plus-items__item"></div>
+                        <div class="plus-items__item"></div>
+                    </div>
+                    
+                </div>
+
+                <a href="./pages/reviews.html" class="reviews-items_href">Смотреть остальные</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--/reviews-->
+
+<!--free color-->
+<section class="section-free section-free-color">
+    <div class="container free-container">
+        <div class="free">
+            
+            <img class="free_phone free_phone__second" src="img/phone_2.png" alt="телефон">
+            <div class="free-wrapper">
+                <div class="free-main">
+                    <span class="free-main_title"> Здесь я даю полезную информацию <br>  для  маркетологов, и для онлайн-предпренимателей</span>
+                    <span class="free-main_txt">а так же шаблоны договоров, факапы предпринимателей и доступ ко всем услугам</span>
+                    <form action="https://t.me/@dogovornick_bot" target="_blank">
+                        <button class="free-main_btn">подписаться на канал
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_949_1048)">
+                                    <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0" stop-color="#FE7BFE"/>
+                                        <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                        <stop offset="100%" stop-color="#8D3BE4"/>
+                                       
+                                      </linearGradient>
+                                    <clipPath id="clip0_949_1048">
+                                        <rect width="20" height="20" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="free-main free-main-second">
+                    <span class="free-main_title free-main_title-third"> Срочный вопрос, <br> не даюший покоя?</span>
+                    <span class="free-main_txt">Запишись на бесплатную консультацию через чат-бота,
+                        и я дам тебе <br> всю необходимую информацию, 
+                        чтобы ты смог решить свой вопрос</span>
+                        <form action="https://t.me/@dogovornick_bot" target="_blank">
+                            <button class="free-main_btn">бот консультации
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_949_1048)">
+                                        <path d="M13.2701 14.5871L14.9107 6.85268C14.9777 6.5253 14.9386 6.29092 14.7935 6.14955C14.6484 6.00818 14.4568 5.98214 14.2188 6.07143L4.57589 9.78795C4.36012 9.86979 4.21317 9.9628 4.13504 10.067C4.05692 10.1711 4.04762 10.2697 4.10714 10.3627C4.16667 10.4557 4.28571 10.5283 4.46429 10.5804L6.9308 11.3504L12.6562 7.74554C12.8125 7.64137 12.9315 7.61905 13.0134 7.67857C13.0655 7.71577 13.0506 7.77158 12.9688 7.84598L8.33705 12.0312L8.15848 14.5759C8.32961 14.5759 8.49702 14.494 8.66071 14.3304L9.86607 13.1696L12.3661 15.0112C12.8423 15.279 13.1436 15.1376 13.2701 14.5871ZM20 10C20 11.3542 19.7359 12.6488 19.2076 13.8839C18.6793 15.119 17.9688 16.183 17.0759 17.0759C16.183 17.9688 15.119 18.6793 13.8839 19.2076C12.6488 19.7359 11.3542 20 10 20C8.64583 20 7.35119 19.7359 6.11607 19.2076C4.88095 18.6793 3.81696 17.9688 2.92411 17.0759C2.03125 16.183 1.32068 15.119 0.792411 13.8839C0.264137 12.6488 0 11.3542 0 10C0 8.64583 0.264137 7.35119 0.792411 6.11607C1.32068 4.88095 2.03125 3.81696 2.92411 2.92411C3.81696 2.03125 4.88095 1.32068 6.11607 0.792411C7.35119 0.264137 8.64583 0 10 0C11.3542 0 12.6488 0.264137 13.8839 0.792411C15.119 1.32068 16.183 2.03125 17.0759 2.92411C17.9688 3.81696 18.6793 4.88095 19.2076 6.11607C19.7359 7.35119 20 8.64583 20 10Z" />
+                                    </g>
+                                    <defs>
+                                        <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                            <stop offset="0" stop-color="#FE7BFE"/>
+                                            <!-- <stop offset="92.68%" stop-color="#"/> -->
+                                            <stop offset="100%" stop-color="#8D3BE4"/>
+                                           
+                                          </linearGradient>
+                                        <clipPath id="clip0_949_1048">
+                                            <rect width="20" height="20" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/free color-->
+
+<!--footer-->
+<footer class="footer">
+    <div class="container footer-container">
+        <div class="footer-links">
+            <div class="header-nav_links footer-nav_links">
+                <a href="#about" class="header-nav_links__link">Обо мне</a>
+                <a href="#services" class="header-nav_links__link">Услуги</a>
+                <a href="pages/contact.html" class="header-nav_links__link">Контакты</a>
+                <a href="#reviews" class="header-nav_links__link">Кейсы и отзывы</a>
+            </div>
+            <div class="reviews-social-links_social">
+                <a href="https://t.me/@dogovornick" class="svg-footer svg-footer-1" href="#"></a>
+                <a href="" class="svg-footer svg-footer-2" href="#"></a>
+                <a href="" class="svg-footer svg-footer-3" href="#"></a>
+            </div>
+            <div class="footer-links_logo">
+                <img src="img/logo-n.png" alt="">
+            </div>
+        </div>
+       
+        <div class="footer-contacts">
+            <div class="footer-contacts_item">
+                <a href="https://t.me/@dogovornick">@dogovornick</a>
+                <a href="mailto:nick@dogovornick.ru">nick@dogovornick.ru</a>
+            </div>
+            <div class="footer-contacts_rule">
+                <span>г. Москва</span>
+                <span>2023 © Все права защищены</span>
+            </div>
+        </div>
+        <div class="footer-up">
+            <a href="#header">наверх</a>
+        </div>
+        
+    </div>
+</footer>
+<!--/footer-->
+
+<!--mobile-footer-->
+<footer class="footer-mobile" id="footer-mobile">
+    <div class="container footer-mob-container">
+        <div class="footer-mob-upper">
+            <div class="header-nav_links footer-mob-links">
+                <a href="./pages/about.html"        class="header-nav_links__link">Обо мне</a>
+                <a href="#services"     class="header-nav_links__link">Услуги</a>
+                <a href="./pages/contact.html" class="header-nav_links__link">Контакты</a>
+                <a href="./pages/reviews.html"       class="header-nav_links__link">Кейсы и отзывы</a>
+            </div>
+            <div class="footer-mob-social">
+                <div class="reviews-social-links_social">
+                    <a class="svg-footer svg-footer-1" href="https://t.me/@dogovornick"></a>
+                    <a class="svg-footer svg-footer-2" href="#"></a>
+                    <a class="svg-footer svg-footer-3" href="#"></a>
+                </div>
+                <div class="footer-contacts_item footer-mob-contacts">
+                    <a href="https://t.me/@dogovornick">@dogovornick</a>
+                    <a href="mailto:nick@dogovornick.ru">nick@dogovornick.ru</a>
+                </div>
+                <div class="footer-contacts_rule">
+                    <span>г. Москва 2023</span>
+                    <span>© Все права защищены</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-mob-lower">
+            <div class="footer-mob-logo">
+                <img src="./img/logo-n.png" alt="">
+            </div>
+            <a href="#header" class="footer-mob-up">наверх</a>
+        </div>
+    </div>
+</footer>
+<!--/mobile-footer-->
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="./js/app.js"></script>
+</html>
